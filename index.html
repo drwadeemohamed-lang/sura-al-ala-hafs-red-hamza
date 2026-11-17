@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سورة الأعلى - حفص عن عاصم</title>
+    <style>
+      :root {
+        --bg: #f6f1e8;
+        --panel: #fffdf9;
+        --text: #1b1b1b;
+        --muted: #5a4b3d;
+        --accent: #9d5c2b;
+        --red: #d62828;
+        --border: #e6d7b7;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: linear-gradient(to bottom, #f7f1e7, #f0e6d9);
+        color: var(--text);
+      }
+
+      .container {
+        max-width: 980px;
+        margin: 32px auto;
+        padding: 24px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        box-shadow: 0 12px 30px rgba(84, 53, 20, 0.08);
+        padding: 32px 28px 24px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+        margin: 0 0 10px;
+        color: var(--accent);
+      }
+
+      .header p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .legend {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 16px 0 26px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .legend .dot {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .dot .swatch {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--red);
+        display: inline-block;
+      }
+
+      .ayah {
+        font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+        line-height: 2.3;
+        text-align: center;
+        direction: rtl;
+        word-spacing: 0.05em;
+        padding: 12px 0;
+        border-top: 1px solid rgba(157, 92, 43, 0.14);
+      }
+
+      .ayah:first-of-type {
+        border-top: none;
+      }
+
+      .highlight {
+        color: var(--red);
+        font-weight: 700;
+      }
+
+      .footer-note {
+        margin-top: 28px;
+        border-top: 1px solid rgba(157, 92, 43, 0.14);
+        padding-top: 16px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      @media (max-width: 640px) {
+        .container { padding: 16px; }
+        .card { padding: 22px 18px 18px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h1>سورة الأعلى</h1>
+          <p>برواية الإمام حفص عن عاصم</p>
+        </div>
+
+        <div class="legend">
+          <span class="dot"><span class="swatch"></span> الهمزة والحرف الذي قبلها</span>
+        </div>
+
+        <div class="ayah">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+
+        <div class="ayah">سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَىٰ</div>
+        <div class="ayah">ٱلَّذِي خَلَقَ فَسَوَّىٰ</div>
+        <div class="ayah">وَٱلَّذِي قَدَّرَ فَهَدَىٰ</div>
+        <div class="ayah">وَٱلَّذِي <span class="highlight">أَخْرَجَ</span> ٱلْمَرْعَىٰ</div>
+        <div class="ayah">فَجَعَلَهُ غُثَ<span class="highlight">اءً</span> <span class="highlight">أَ</span>حْوَىٰ</div>
+        <div class="ayah">سَنُقْرِ<span class="highlight">ئُكَ</span> فَلَا تَنسَىٰ</div>
+        <div class="ayah"><span class="highlight">إِلَّا</span> مَا شَ<span class="highlight">اءَ</span> ٱللَّهُ ۚ <span class="highlight">إِنَّهُ</span> يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ</div>
+        <div class="ayah">وَنُيَسِّرُكَ لِلْيُسْرَىٰ</div>
+        <div class="ayah">فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ</div>
+        <div class="ayah">سَيَذَّكَّرُ مَن يَخْشَىٰ</div>
+        <div class="ayah">وَيَتَجَنَّبُهَا <span class="highlight">اَلْأَشْقَى</span></div>
+        <div class="ayah">ٱلَّذِي يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ</div>
+        <div class="ayah">ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ</div>
+        <div class="ayah">قَدْ <span class="highlight">أَفْلَحَ</span> مَن تَزَكَّىٰ</div>
+        <div class="ayah">وَذَكَرَ ٱسْمَ رَبِّهِ فَصَلَّىٰ</div>
+        <div class="ayah">بَلْ تُ<span class="highlight">ؤْثِرُونَ</span> ٱلْحَيَاةَ ٱلدُّنْيَا</div>
+        <div class="ayah">وَٱلْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</div>
+        <div class="ayah"><span class="highlight">إِنَّ</span> هَٰذَا لَفِي ٱلصُّحُفِ ٱلْأُولَىٰ</div>
+        <div class="ayah">صُحُفِ <span class="highlight">إِبْرَاهِيمَ</span> وَمُوسَىٰ</div>
+
+        <div class="footer-note">
+          ملاحظـة: التلوين هنا توضيحي لتعليم الهمزة والحرف الذي قبلها في بعض المواضع وفق طريقة العرض.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
